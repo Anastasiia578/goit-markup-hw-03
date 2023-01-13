@@ -1,0 +1,136 @@
+:root {
+--background-color: #ffffff;
+--text-color: #434455;
+--footer-text-color: #e7e9fc;
+--btn-color: #e7e9fc;
+--btn-active-colore: #4d5ae5;
+--hover-focus-color: #404bbf;
+}
+body {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+line-height: 1.5;
+background-color: #ffffff;
+color: #2e2f42;
+}
+ul {
+list-style-type: none;
+}
+a {
+text-decoration: none;
+color: #2e2f42;
+}
+p {
+font-family: inherit, "sans-serif";
+font-size: 16px;
+color: var(--text-color);
+letter-spacing: 0.02em;
+}
+/*header*/
+.header-logo {
+font-family: "Raleway", "sans-serif";
+font-weight: 800;
+font-size: 18;
+line-height: 1.33;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+.log {
+color: #4d5ae5;
+}
+.header-list {
+font-family: inherit, "sans-serif";
+font-weight: 500;
+font-size: 16px;
+}
+.menu:hover,
+.menu:focus {
+color: var(--hover-focus-color);
+}
+.header-nav {
+font-style: normal;
+}
+.contact:hover,
+.contact:focus {
+color: var(--hover-focus-color);
+}
+/*main*/
+.title {
+background-color: #2e2f42;
+}
+.title-text {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+color: #ffffff;
+}
+.btn {
+cursor: pointer;
+padding: 16px 32px;
+gap: 10px;
+background-color: #4d5ae5;
+font-family: inherit;
+font-weight: 500;
+color: #ffffff;
+font-size: 16px;
+}
+.btn:hover {
+background-color: var(--hover-focus-color);
+}
+.visually-hiden {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+/*portfolio*/
+.portfolio-btn {
+cursor: pointer;
+padding: 12px 24px;
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+color: #4d5ae5;
+background-color: var(--btn-color);
+}
+.portfolio-btn:hover {
+background-color: var(--btn-active-colore);
+color: #ffffff;
+}
+/*end portfolio*/
+.charecter {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.hero {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+}
+.hero-box {
+background-color: #f4f4fd;
+}
+/*footer*/
+.footer {
+background-color: #2e2f42;
+}
+.footer-logo {
+font-family: "Raleway", "sans-serif";
+font-weight: 800;
+font-size: 18px;
+text-transform: uppercase;
+color: var(--footer-text-color);
+line-height: 1.16;
+}
+.footer-sub {
+color: var(--footer-text-color);
+}
