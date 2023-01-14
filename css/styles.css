@@ -44,6 +44,8 @@ letter-spacing: 0.02em;
 }
 .container {
     width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -92,6 +94,7 @@ color: var(--hover-focus-color);
 .header-nav{
 font-style: normal;
 display: inline;
+margin-right: 40px;
 }
 
 .contact:hover,
@@ -111,6 +114,8 @@ font-size: 56px;
 line-height: 1.07;
 color: #ffffff;
 max-width: 500px;
+padding-bottom: 48px;
+
 }
 .btn {
 cursor: pointer;
@@ -126,6 +131,8 @@ flex-direction: row;
 align-items: flex-start;
 padding: 16px 32px;
 gap: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
