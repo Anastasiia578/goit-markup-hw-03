@@ -21,6 +21,8 @@ h5,
 h6,
 p {
 margin: 0;
+padding-top: 8px;
+
 }
 img {
     display: block;
@@ -57,7 +59,7 @@ text-transform: uppercase;
 color: #2e2f42;
 }
 .log {
-color: #4d5ae5;
+    color: #4d5ae5;
 }
 .header-list {
 font-family: inherit, "sans-serif";
@@ -77,6 +79,9 @@ color: var(--hover-focus-color);
 }
 /*main*/
 .title {
+padding-top: 188px; 
+padding-bottom: 292px;
+text-align: center;
 background-color: #2e2f42;
 }
 .title-text {
@@ -84,6 +89,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 color: #ffffff;
+max-width: 500px;
 }
 .btn {
 cursor: pointer;
@@ -93,7 +99,12 @@ background-color: #4d5ae5;
 font-family: inherit;
 font-weight: 500;
 color: #ffffff;
-font-size: 16px
+font-size: 16px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
 }
 .btn:hover,
 .btn:focus {
@@ -127,6 +138,7 @@ color: #ffffff;
 }
 /*end portfolio*/
 .charecter {
+padding-top: 32px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -143,7 +155,8 @@ background-color: var(--background-color);
 
 }
 /*footer*/
-.footer {
+.footer { 
+padding-top: 100px;
 background-color: #2e2f42;
 }
 .footer-logo {
