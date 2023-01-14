@@ -49,6 +49,15 @@ letter-spacing: 0.02em;
 }
 
 /*header*/
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .header-logo {
 font-family: "Raleway", "sans-serif";
 font-weight: 800;
@@ -68,15 +77,20 @@ font-family: inherit, "sans-serif";
 font-weight: 500;
 font-size: 16px;
 display: flex;
-justify-content: space-evenly;
+}
+.header-n{
+    display: flex;
+    align-items: center;
 }
 .menu:hover,
 .menu:focus {
 color: var(--hover-focus-color);
 }
-.header-nav {
+.header-nav{
 font-style: normal;
+display: inline;
 }
+
 .contact:hover,
 .contact:focus {
 color: var(--hover-focus-color);
