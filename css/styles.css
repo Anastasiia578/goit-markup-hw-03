@@ -76,7 +76,7 @@ font-weight: 500;
 color: #ffffff;
 font-size: 16px;
 }
-.btn:hover {
+.btn:hover,.btn:focus {
 background-color: var(--hover-focus-color);
 }
 .visually-hiden {
