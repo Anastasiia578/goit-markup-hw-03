@@ -43,10 +43,13 @@ color: var(--text-color);
 letter-spacing: 0.02em;
 }
 .container {
-    width: 1188px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /*header*/
 .header-logo {
 font-family: "Raleway", "sans-serif";
@@ -122,6 +125,7 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
+
 /*portfolio*/
 .portfolio-btn {
 cursor: pointer;
@@ -157,6 +161,7 @@ background-color: var(--background-color);
 /*footer*/
 .footer { 
 padding-top: 100px;
+padding-bottom: 188px;
 background-color: #2e2f42;
 }
 .footer-logo {
@@ -168,5 +173,6 @@ color: var(--footer-text-color);
 line-height: 1.16;
 }
 .footer-sub {
+    max-width: 264px;
 color: var(--footer-text-color);
 }
