@@ -22,9 +22,6 @@ h6,
 p {
 margin: 0;
 }
-img {
-display: block;
-}
 ul {
 list-style-type: none;
 margin: 0;
@@ -39,6 +36,9 @@ font-family: inherit, "sans-serif";
 font-size: 16px;
 color: var(--text-color);
 letter-spacing: 0.02em;
+}
+.container {
+    width: 1158px;
 }
 /*header*/
 .header-logo {
