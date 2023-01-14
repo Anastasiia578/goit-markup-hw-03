@@ -38,7 +38,9 @@ color: var(--text-color);
 letter-spacing: 0.02em;
 }
 .container {
-    width: 1158px;
+    width: 1188px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*header*/
 .header-logo {
