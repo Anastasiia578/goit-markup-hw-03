@@ -103,6 +103,7 @@ color: var(--hover-focus-color);
 }
 /*main*/
 .title {text-align: center;
+    
 }
 .title-container{
 background-color: #2e2f42;
@@ -115,8 +116,8 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 color: #ffffff;
-max-width: 500px;
 padding-bottom: 48px;
+width: 494px;
 
 }
 .btn {
@@ -128,7 +129,6 @@ font-family: inherit;
 font-weight: 500;
 color: #ffffff;
 font-size: 16px;
-display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 16px 32px;
@@ -152,7 +152,10 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
-
+.charecter-list {
+    display: flex;
+    gap: 24px;
+}
 /*portfolio*/
 .portfolio-btn {
 cursor: pointer;
@@ -174,16 +177,20 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 }
-.hero { background-color: #f4f4fd;
+.hero { 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
 padding-top: 232px;
 padding-bottom: 120px;
+text-align: center;
 }
 .hero-box {
 background-color: var(--background-color);
-
+display: flex;
+}
+.hero-container {
+background-color: #f4f4fd;
 }
 /*footer*/
 .footer { 
