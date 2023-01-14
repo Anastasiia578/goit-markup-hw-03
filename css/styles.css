@@ -58,6 +58,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
+display: flex;
 }
 .log {
     color: #4d5ae5;
