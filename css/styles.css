@@ -102,11 +102,13 @@ margin-right: 40px;
 color: var(--hover-focus-color);
 }
 /*main*/
-.title {
+.title {text-align: center;
+}
+.title-container{
+background-color: #2e2f42;
 padding-top: 188px; 
 padding-bottom: 292px;
 text-align: center;
-background-color: #2e2f42;
 }
 .title-text {
 font-weight: 700;
