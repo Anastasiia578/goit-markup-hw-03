@@ -74,11 +74,6 @@ justify-content: space-evenly;
 .menu:focus {
 color: var(--hover-focus-color);
 }
-.menu {
-}
-.menu-1 { order: 1;
-
-}
 .header-nav {
 font-style: normal;
 }
