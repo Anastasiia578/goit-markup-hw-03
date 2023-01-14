@@ -185,12 +185,20 @@ padding-top: 232px;
 padding-bottom: 120px;
 text-align: center;
 }
-.hero-box {
+.hero-box{
+    display: flex;
+    gap: 24px;
+}
+.hero-box1 {
 background-color: var(--background-color);
 display: flex;
 }
+.title-hero {
+    padding-bottom: 72px;
+}
 .hero-container {
 background-color: #f4f4fd;
+padding-top: 120px;
 }
 /*footer*/
 .footer { 
