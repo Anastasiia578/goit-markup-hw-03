@@ -112,7 +112,6 @@ p {
     text-align: center;
 }
 .title-container{
-    
     padding-top: 188px; 
     padding-bottom: 292px;
     text-align: center;
@@ -123,8 +122,8 @@ p {
     line-height: 1.07;
     color: #ffffff;
     padding-bottom: 48px;
-    max-width: 500px;
-    text-align: center;
+    max-width: 496px;
+    margin-left: 330px;
 }
 .btn {
     cursor: pointer;
@@ -196,7 +195,7 @@ p {
 .list-oport {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
     padding-bottom: 48px;
 }
 /*end portfolio*/
@@ -213,7 +212,6 @@ p {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    padding-top: 232px;
     text-align: center;
     background-color: #f4f4fd;
 }
@@ -243,8 +241,11 @@ p {
     justify-content: center;
     align-items: center;
     padding: 0px 0px 32px;
-    gap: 32px;
     border-radius: 0px 0px 4px 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--text-color);
 }
 .title-hero {
     padding-bottom: 72px;
