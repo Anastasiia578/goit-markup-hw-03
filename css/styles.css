@@ -103,8 +103,12 @@ p {
     color: var(--hover-focus-color);
 }
 /*main*/
-.title-container{
+.title {
     background-color: #2e2f42;
+    text-align: center;
+}
+.title-container{
+    
     padding-top: 188px; 
     padding-bottom: 292px;
     text-align: center;
@@ -203,10 +207,20 @@ p {
     line-height: 1.1;
     padding-top: 232px;
     text-align: center;
+    background-color: #f4f4fd;
+}
+.hero-c {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .hero-box{
     display: flex;
     gap: 24px;
+    padding-bottom: 72px;
 }
 .hero-box1 {
     background-color: var(--background-color);
@@ -221,13 +235,15 @@ p {
     padding-bottom: 72px;
 }
 .hero-container {
-    background-color: #f4f4fd;
+    
     padding-top: 120px;
     padding-bottom: 120px;
 }
 /*footer*/
-.footer-container {
+.footer{
     background-color: #2e2f42;
+}
+.footer-container {
     padding-top: 100px;
     padding-bottom: 188px;
 }
