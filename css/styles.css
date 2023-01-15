@@ -158,6 +158,16 @@ margin: -1px;
     gap: 24px;
 }
 /*portfolio*/
+.portfolio {
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio-btn {
 cursor: pointer;
 padding: 12px 24px;
@@ -166,6 +176,10 @@ font-weight: 500;
 font-size: 16px;
 color: #4d5ae5;
 background-color: var(--btn-color);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+padding: 12px 24px;
+
 }
 .portfolio-btn:hover {
 background-color: var(--btn-active-colore);
