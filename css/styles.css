@@ -188,35 +188,34 @@ color: #ffffff;
     gap: 24px;
     padding-bottom: 48px;
 }
-.list {
-    
-}
 /*end portfolio*/
+
+/*main*/
 .charecter {
-padding-top: 32px;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+    padding-top: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .hero { 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-padding-top: 232px;
-text-align: center;
-padding-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    padding-top: 232px;
+    text-align: center;
 }
 .hero-box{
     display: flex;
     gap: 24px;
 }
 .hero-box1 {
-background-color: var(--background-color);
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 32px;
-gap: 32px;}
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+}
 
 .title-hero {
     padding-bottom: 72px;
@@ -233,13 +232,13 @@ padding-bottom: 120px;
     padding-bottom: 188px;
 }
 .footer-logo {
-font-family: "Raleway", "sans-serif";
-font-weight: 800;
-font-size: 18px;
-text-transform: uppercase;
-color: var(--footer-text-color);
-line-height: 1.16;
-margin-left:156px;;
+    font-family: "Raleway", "sans-serif";
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--footer-text-color);
+    line-height: 1.16;
+    margin-left:156px;;
 }
 .footer-sub {
     max-width: 264px;
