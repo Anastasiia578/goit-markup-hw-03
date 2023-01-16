@@ -98,8 +98,8 @@ p {
 .header-nav:not(:last-child )
 {
     font-style: normal;
-    display: block
-    margin-right:40px;
+    display: block;
+    margin-right: 40px;
 }
 .contact:hover,
 .contact:focus {
