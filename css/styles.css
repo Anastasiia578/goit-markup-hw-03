@@ -95,12 +95,14 @@ p {
     display:block;
     margin-left: 40px;
 }
-.header-nav:not(:last-child )
-{
-    font-style: normal;
-    display: block;
+.header-nav
+{   font-style: normal;
+    display: inline;
+}
+.header-nav:not(:last-child){
     margin-right: 40px;
 }
+
 .contact:hover,
 .contact:focus {
     color: var(--hover-focus-color);
@@ -113,7 +115,6 @@ p {
     padding-bottom: 188px;;
 }
 .title-container{
-    
     text-align: center;
 }
 .title-text {
