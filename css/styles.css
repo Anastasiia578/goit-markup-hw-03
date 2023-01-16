@@ -54,8 +54,6 @@ p {
 
 /*header*/
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
     border-bottom: 1px solid #E7E9FC;
 }
 .header-container{
@@ -93,7 +91,9 @@ p {
     color: var(--hover-focus-color);
 }
 .menu {
-    padding: 24px;
+    padding: 24px 0px ;
+    display:block;
+    margin-left: 40px;
 }
 .header-nav{
     font-style: normal;
@@ -157,6 +157,9 @@ p {
     clip-path: inset(50%);
     margin: -1px;
 }
+.info {
+    padding-top: 120px;
+}
 .charecter-list {
     display: flex;
     gap: 24px;
@@ -168,6 +171,7 @@ p {
 /*portfolio*/
 .portfolio-top {
     padding-top: 96px;
+    padding-bottom: 120px;
 }
 .portfolio {
     display: flex;
@@ -200,7 +204,7 @@ p {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
+    
 }
 .exampl{ border: 1px solid #E7E9FC;
 border-top: none;
@@ -238,7 +242,6 @@ padding-bottom: 32px;
 .hero-box{
     display: flex;
     gap: 24px;
-    padding-bottom: 72px;
 }
 .hero-box1 {
     display: flex;
