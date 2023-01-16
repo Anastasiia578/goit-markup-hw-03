@@ -95,10 +95,11 @@ p {
     display:block;
     margin-left: 40px;
 }
-.header-nav{
+.header-nav:not(:last-child )
+{
     font-style: normal;
-    display: inline;
-    margin-right: 40px;
+    display: block
+    margin-right:40px;
 }
 .contact:hover,
 .contact:focus {
@@ -247,7 +248,7 @@ padding-bottom: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 24px;
 }
 .hero-card {
     background-color: var(--background-color);
@@ -283,11 +284,10 @@ padding-bottom: 32px;
     text-transform: uppercase;
     color: var(--footer-text-color);
     line-height: 1.16;
-    margin-left:156px;;
+
 }
 .footer-sub {
     max-width: 264px;
     color: var(--footer-text-color);
     padding-top: 16px;
-    margin-left:156px;
 }
