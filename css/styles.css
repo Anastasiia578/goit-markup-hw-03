@@ -40,7 +40,6 @@ a {
     color: #2e2f42;
 }
 p {
-    font-family: inherit, "sans-serif";
     color: var(--text-color);
 }
 
